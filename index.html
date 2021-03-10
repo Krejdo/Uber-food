@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UberEats</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.min.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script type="text/javascript">$(function() {$(window).scroll(function() {if($(this).scrollTop() != 0) {$('#button_up').fadeIn();} else {$('#button_up').fadeOut();}});$('#button_up').click(function() {$('body,html').animate({scrollTop:0},800);});});</script>
+</head>
+<body>
+  <header class="header">
+    <div class="header-image">
+        <a href="#">
+            <img class="logo" src="images/logo.svg" alt="">
+        </a>
+    </div>
+    <div class="rightitems">
+        <div class="header-button">
+          <button class="button">
+            <span>Войти</span>
+          </button>
+        </div>
+        <div class="header-basket">
+          <a href="#">
+            <img src="images/basket.png" alt="">
+          </a>
+        </div>
+    </div>
+  </header>
+  <div class="content">
+      <div class="search">
+        <input type="search" placeholder="Поиск по ресторанам и кухням">
+      </div>
+      <div class="content-title">
+        <div class="title">
+          <h4>Рестораны в Москве</h4>
+        </div>
+      </div>
+      <div class="food-card-row">
+          <div class="food-card col-lg-4 col-sm-6">
+            <div class="bg-ligt-gray">
+              <div class="food-item" style="background-image: url('images/1.png');">
+                  <a href="page.html" class="card-link"></a>
+              </div>
+              <div class="food-subtitle">
+                  <p>Макдоналдс — Газетный</p>
+                  <p>₽₽ • Бургеры</p>
+                  <p>25 - 35 мин</p>
+              </div>
+            </div>
+          </div>
+          <div class="food-card col-lg-4 col-sm-6">
+            <div class="bg-ligt-gray">
+              <div class="food-item" style="background-image: url('images/3.png');">
+                  <a href="page.html" class="card-link"></a>
+              </div>
+              <div class="food-subtitle">
+                  <p>DimSum & Co — ЦДМ</p>
+                  <p>₽ • Японская • Китайская • Азиатская</p>
+                  <p>40 - 50 мин</p>
+              </div>
+            </div>
+          </div>
+          <div class="food-card col-lg-4 col-sm-6">
+            <div class="bg-ligt-gray">
+              <div class="food-item" style="background-image: url('images/2.png');">
+                  <a href="page.html" class="card-link"></a>
+              </div>
+              <div class="food-subtitle">
+                  <p>ДвижОК — Манежная</p>
+                  <p>₽ • Американская • Европейская</p>
+                  <p>35 - 45 мин</p>
+              </div>
+            </div>
+          </div>
+          <div class="food-card col-lg-4 col-sm-6">
+            <div class="bg-ligt-gray">
+              <div class="food-item" style="background-image: url('images/4.png');">
+                  <a href="page.html" class="card-link"></a>
+              </div>
+              <div class="food-subtitle">
+                  <p>НЯ — NHA</p>
+                  <p>₽₽ • Вьетнамская</p>
+                  <p>30 - 40 мин</p>
+              </div>
+            </div>
+          </div>
+          <div class="food-card col-lg-4 col-sm-6">
+            <div class="bg-ligt-gray">
+              <div class="food-item" style="background-image: url('images/5.png');">
+                  <a href="page.html" class="card-link"></a>
+              </div>
+              <div class="food-subtitle">
+                  <p>Точка Дзы — Цветной</p>
+                  <p>₽₽ • Вьетнамская</p>
+                  <p>40 - 50 мин</p>
+              </div>
+            </div>
+          </div>
+          <div class="food-card col-lg-4 col-sm-6">
+            <div class="bg-ligt-gray">
+              <div class="food-item" style="background-image: url('images/6.png');">
+                  <a href="page.html" class="card-link"></a>
+              </div>
+              <div class="food-subtitle">
+                  <p>Cinnabon</p>
+                  <p>₽ • Выпечка • Десерты • Капкейки</p>
+                  <p>25 - 35 мин</p>
+              </div>
+            </div>
+          </div>
+          <div class="food-card col-lg-4 col-sm-6">
+            <div class="bg-ligt-gray">
+              <div class="food-item" style="background-image: url('images/7.png');">
+                  <a href="page.html" class="card-link"></a>
+              </div>
+              <div class="food-subtitle">
+                  <p>PIZZELOVE</p>
+                  <p>₽₽ • Пицца</p>
+                  <p>15 - 25 мин</p>
+              </div>
+            </div>
+          </div>
+          <div class="food-card col-lg-4 col-sm-6">
+            <div class="bg-ligt-gray">
+              <div class="food-item" style="background-image: url('images/8.png');">
+                  <a href="page.html" class="card-link"></a>
+              </div>
+              <div class="food-subtitle">
+                  <p>Zю кафе — Тверская</p>
+                  <p>₽₽ • Японская</p>
+                  <p>25 - 35 мин</p>
+              </div>
+            </div>
+          </div>
+          <div class="food-card col-lg-4 col-sm-6">
+            <div class="bg-ligt-gray">
+              <div class="food-item" style="background-image: url('images/9.png');">
+                  <a href="page.html" class="card-link"></a>
+              </div>
+              <div class="food-subtitle">
+                  <p>Bar BQ Cafe — Манежная</p>
+                  <p>₽₽₽ • Европейская</p>
+                  <p>30 - 40 мин</p>
+              </div>
+            </div>
+          </div>
+      </div>
+  </div>
+  <footer class="footer">
+      <div class="footer-logo">
+          <a href="#">
+              <img src="images/white-logo.svg" alt="">
+          </a>
+      </div>
+      <div class="footer-container">
+	      <div class="footer-nav-block_1 col-lg-4 col-sm-4">
+		      <div class="footer-content-title">
+		          <select name="langPage" size="1">
+		              <option class="icon" value="Русский">Русский</option>
+		              <option class="icon" value="English">English</option>
+		          </select>
+		      </div>
+	          <div class="social">
+	          	  <p><span>#</span>UberEats</p>
+	          	  <a href="#"><img src="images/facebook.svg" alt=""></a>
+	          	  <a href="#"><img src="images/twitter.svg" alt=""></a>
+	          	  <a href="#"><img src="images/instagram.svg" alt=""></a>
+	          </div>
+	      </div>
+	      <div class="footer-nav-block_2 col-lg-4 col-sm-4">
+	      	<ul>
+	      		<li><a href="#">Об UberEats</a></li>
+	      		<li><a href="#">Станьте партнёром по доставке</a></li>
+	      		<li><a href="#">Станьте парнёром-рестораном</a></li>
+	      	</ul>
+	      </div>
+	      <div class="footer-nav-block_3 col-lg-4 col-sm-4">
+	      	<ul>
+	      		<li><a href="#">Все города</a></li>
+	      		<li><a href="#">Цены</a></li>
+	      		<li><a href="#">Помощь</a></li>
+	      		<li><a href="#">FAQs</a></li>
+	      	</ul>
+	      </div>
+      </div>
+      <div class="footer-container_2">
+      	  <div class="social_2">
+		      <a href="#"><img src="images/AppStore.png" alt="" class="social_img"></a>
+		      <a href="#"><img src="images/GooglePlay.png" alt="" class="social_img"></a>
+	      </div>
+      </div>
+      <div class="footer-container_3">
+      	  <div class="footer-nav-block_4 col-lg-4 col-sm-4">
+      	  	  <a href="#">© 2017 Uber Technologies Inc.</a>
+      	  </div>
+      	  <div class="footer-nav-block_5 col-lg-4 col-sm-4">
+      	  	  <a href="#">Обработка персональных данных</a>
+      	  </div>  
+      	  <div class="footer-nav-block_6 col-lg-4 col-sm-4">
+      	  	  <a href="#">Пользовательское соглашение</a>
+      	  </div>
+      </div>
+  </footer>
+  <div id="button_up">
+  	  <img src="images/Shape.png" alt="">
+  </div>
+</body>
+</html>
