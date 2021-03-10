@@ -6,8 +6,6 @@
 	<title>Document</title>
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.min.css">
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script type="text/javascript">$(function() {$(window).scroll(function() {if($(this).scrollTop() != 0) {$('#button_up').fadeIn();} else {$('#button_up').fadeOut();}});$('#button_up').click(function() {$('body,html').animate({scrollTop:0},800);});});</script>
 </head>
 <body>
 	<header class="header">
@@ -202,5 +200,7 @@
   <div id="button_up">
   	  <img src="images/Shape.png" alt="">
   </div>
+  <script src="jquery.min.js"></script>
+  <script type="text/javascript">$(function() {$(window).scroll(function() {if($(this).scrollTop() != 0) {$('#button_up').fadeIn();} else {$('#button_up').fadeOut();}});$('#button_up').click(function() {$('body,html').animate({scrollTop:0},800);});});</script>
 </body>
 </html>
