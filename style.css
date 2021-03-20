@@ -98,10 +98,6 @@ select {
 	border: 1px solid #E0E0E0;
 }
 
-.button span {
-
-}
-
 .button:hover {
 	background: #59BD5A;
 	color: white;
@@ -439,10 +435,6 @@ input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s eas
 	margin-bottom: 49px;
 }
 
-.snack-card:hover {
-
-}
-
 .snack-column {
 	padding: 16px 0 16px 16px;
 	display: flex;
@@ -458,6 +450,7 @@ input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s eas
 .snack-title p:nth-child(2) {
 	font-size: 13px;
 	color: #626262;
+	padding-left: 8px;
 }
 
 .price p {
